@@ -1,0 +1,10 @@
+addi $t4,$0, 5
+addi $t6,$0, 0
+sw $t4, 0($t6)
+lw $s0, 0($t6)
+addi $s1, $0, 1
+beq $s0, 0, end
+loop1: mul $s1, $s0, $s1
+addi $s0, $s0, -1
+bne $s0, 0, loop1
+end:
