@@ -2,7 +2,7 @@
 DataMem = ["0"*8]*40000000
 
 #Accessing the Binary file
-file=input()
+file=input("Enter file name:")
 f=open(f"{file}.txt", "r")
 text=(f.read()).splitlines()
 textString="".join(text)
