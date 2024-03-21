@@ -1,4 +1,4 @@
-addi $t4,$0, 4 #a
+addi $t4,$0, 3 #a
 addi $t5,$0, 2 #b
 addi $t6,$0, 0
 sw $t4, 0($t6)
